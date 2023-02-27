@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sadik Portfolio </title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+
+    <script src="https://kit.fontawesome.com/e954b6287d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Meetwith.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+
+
+
+
+            </nav>
+
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+            </div>
+            <h1>Hello,I am<span> wahid sadik</span><br> from Bangladesh</h1>
+
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+    <!--------about------>
+
+    <div id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sadikabout.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a full stack software developer with a strong background in developing web and mobile applications. I ahve more than 1 years of experience working with JavaScript, HTML, CSS, PHP,MYSQL,c# and other related technologies. I am proficient
+                        in developing powerful and effective solutions for various projects. I have also worked on several projects involving cross-platform development, creating responsive designs, and integrating third-party APIs. I am also highly experienced
+                        in developing backend systems and databases, as well as developing custom solutions for clients.</p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links " onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links " onclick="opentab('education')">Education</div>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-end Developer</span><br>Designing website</li>
+                            <li><span>Back-end Developer</span><br>Create dynamic website customize</li>
+                            <li><span>Full stack Developer</span><br>making Full website</li>
+                        </ul>
+
+
+
+
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>sadik soft</span><br>year:2020-2021</li>
+                            <li><span>wahid AI soft</span><br>year:2021-2022</li>
+                            <li><span>BD soft Ltd</span><br>year:2022-present</li>
+                        </ul>
+
+
+
+
+                    </div>
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>Harimohon government school </span><br>2012-2017</li>
+                            <li><span>American Internation University of Bangladesh</span><br>2020-2023</li>
+                            <li><span>Youtube</span><br>2020-2023</li>
+                        </ul>
+
+
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!---end about-->
+    <!---services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website development</h2>
+                    <p>
+                        I am pleased to offer my website development services. With my experience building websites for businesses and organizations of all sizes, I can help you create a professional and fully functional website that meets your needs. My services include designing
+                        and developing custom websites, optimizing websites for search engines, and providing ongoing website maintenance. I also offer domain registration, hosting plans, e-commerce solutions, and more. Whether you're looking to build
+                        a website from scratch or just need help with a few features, I'm here to help. Contact me for more information and to get started!</p>
+                    <a href="#">learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Web application development</h2>
+                    <p>
+                        I provide web application services that enable users to access online software applications via their web browsers. I offer a variety of web application services such as developing custom web applications, integrating existing systems with web-based applications,
+                        and helping businesses transition to cloud-based applications. I can also help you manage web applications, ensuring that they are secure, reliable, and easy to use. Additionally, I provide ongoing support and maintenance for web
+                        applications to ensure that they remain up-to-date and running smoothly.</p>
+                    <a href="#">learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>ERP applicationt</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+                        using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web
+                        sites still in their infancy. Various versions have evolved over the years, sometimes by accident</p>
+                    <a href="#">learn more</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!---------portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/bil.jpeg">
+                    <div class="layer">
+
+                        <h3>Invoice System</h3>
+                        <p>The application helpful for u.It makes easy to work for your bussiness</p>
+                        <a href="https://sadik7375.github.io/Invoice_system/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work5.jpg">
+                    <div class="layer">
+
+                        <h3>Daily Dairy</h3>
+                        <p>The application helpful for u.It makes easy to work for your Daily life</p>
+                        <a href="https://sadik7375.github.io/Daily-Dairy/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sadik.jpg">
+                    <div class="layer">
+
+                        <h3>Social Media</h3>
+                        <p>The application helpful for u.It makes easy to work for your bussiness</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!----------contact----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>wahidsadik7375@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>01701737576</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/sadik.rox.1/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/wahid-sadik-b650761a5/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+
+                    </div>
+
+                    <a href="images/wahidsadik.pdf" download class="btn btn2">Download My CV</a>
+
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ wahid sadik</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>
